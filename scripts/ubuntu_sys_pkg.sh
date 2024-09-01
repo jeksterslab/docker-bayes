@@ -14,4 +14,5 @@ function apt_install() {
 
 # jags
 apt_install \
+    clang   \
     jags
