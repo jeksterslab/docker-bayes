@@ -13,7 +13,8 @@ function apt_install() {
 }
 
 # jags
-apt_install \
+apt_install    \
+    pkg-config \
     jags
 
 pkg-config --modversion jags
